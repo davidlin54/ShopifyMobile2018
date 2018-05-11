@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">ShopifyMobile2018</string>
+    <string name="app_name">Orders</string>
+    <plurals name="order_per_category">
+        <item quantity="one">%1$d Order From %2$s</item>
+        <item quantity="other">%1$d Orders From %2$s</item>
+    </plurals>
+    <string name="order_number">#%1$d</string>
+    <string name="price">$%1$.2f</string>
+    <string name="name_placeholder">Customer</string>
+    <string name="arrow_up">▲</string>
+    <string name="arrow_down">▼</string>
+    <string name="expand_categories">Show Orders Per Province</string>
+    <string name="collapse_categories">Hide Orders Per Province</string>
 </resources>
